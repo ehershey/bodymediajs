@@ -1,0 +1,25 @@
+{
+    "name": "bodymedia",
+    "version": "0.8.0",
+    "description": "Interface to the Bodymedia API - http://developer.bodymedia.com/",
+    "keywords": [ "bodymedia", "api", "oauth", "request", "health", "mashery" ],
+    "bugs": { 
+        "url" : "http://github.com/ehershey/bodymediajs/issues",
+        "email" : "bodymediajs@ernie.org" },
+    "author": "Ernie Hershey <bodymediajs@ernie.org> (http://www.ernie.org/)",
+    "files": [ "bodymedia.js" ],
+    "main": "bodymedia",
+    "bin": { 
+        "call_bodymedia_url" : "./call_bodymedia_url.js" 
+    },
+    "dependencies": {
+        "request": "~2.10.0",
+        "npm": "~1.1.48",
+        "optimist": "~0.3.4"
+    },
+    "optionalDependencies": {
+    }
+}
+
+
+
