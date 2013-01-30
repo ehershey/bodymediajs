@@ -172,7 +172,7 @@ function do_initial_auth(options, callback) {
                     // use the npm object, now that it's loaded.
                     //
                     var url = "https://api.bodymedia.com/oauth/authorize?oauth_token=" + access_token.oauth_token + '&api_key=' + API_KEY + '&oauth_callback=' + "http://localhost:" + port + "/";
-                    console.log("attempting to open a browser to visit this url: " + url);
+                    console.log("attempting to open a browser to visit this url (open manually if nothing happens): " + url);
 
                     child_process.exec(npm.config.get('browser') + " \"" + url + "\"", function () {});
                 });
