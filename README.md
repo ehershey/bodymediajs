@@ -1,6 +1,9 @@
 bodymediajs
 ===========
 
+[![NPM](https://nodei.co/npm/bodymedia.png?downloads=true&stars=true)](https://nodei.co/npm/bodymedia/)
+
+
 Javascript code to interact with the Bodymedia API in node.js
 
 Usage:
